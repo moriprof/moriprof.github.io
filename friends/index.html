@@ -4,9 +4,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="专业教学标准专题, Morio&#39;s Blog">
-    <meta name="description" content="高等职业学校专业教学标准
-">
+    <meta name="keywords" content="friends, Morio&#39;s Blog">
+    <meta name="description" content="friends | Morio&#39;s Blog">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -14,7 +13,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>专业教学标准专题 | Morio&#39;s Blog</title>
+    <title>friends | Morio&#39;s Blog</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -271,326 +270,283 @@
     </nav>
 </header>
 
-
-
-
-
-<div class="bg-cover post-cover" style="background-image: url('/medias/featureimages/16.jpg')">
+<div class="bg-cover  about-cover" style="background-image: url('/medias/cover.jpg')">
     <div class="container">
         <div class="row">
-            <div class="col s12 m12 l12">
+            <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
                 <div class="brand">
-                    <div class="description center-align post-title">
-                        专业教学标准专题
+                    <div class="title center-align">
+                    
+                        Morio&#39;s Blog
+                    
+                    </div>
+
+                    <div class="description center-align">
+                    
+                        自由，友爱，杰出，前卫
+                    
                     </div>
                 </div>
             </div>
         </div>
+        
     </div>
 </div>
 
-
-
-<main class="post-container content">
-
-    
-    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+<script>
+// Dynamically switch banner pictures every day.
+$('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay() + '.jpg)');
+</script>
 <style>
-    #articleContent h1::before,
-    #articleContent h2::before,
-    #articleContent h3::before,
-    #articleContent h4::before,
-    #articleContent h5::before,
-    #articleContent h6::before {
-        display: block;
-        content: " ";
-        height: 100px;
+    .friends-container {
         margin-top: -100px;
-        visibility: hidden;
     }
 
-    #articleContent :focus {
-        outline: none;
+    .frind-ship img {
+        border-radius: 50%;
     }
 
-    .toc-fixed {
-        position: fixed;
-        top: 64px;
+    /* 一下是按钮样式 */
+
+    .frind-ship {
+        padding: 10px 20px;
     }
 
-    .toc-widget {
-        padding-left: 20px;
+    .frind-ship .title {
+        display: flex;
+        align-items: center;
     }
 
-    .toc-widget .toc-title {
-        margin: 35px 0 15px 0;
-        padding-left: 17px;
-        font-size: 1.5rem;
-        font-weight: bold;
-        line-height: 1.5rem;
-    }
-
-    .toc-widget ol {
-        padding: 0;
-        list-style: none;
-    }
-
-    #toc-content ol {
+    .frind-ship .title div {
+        color: #fff;
         padding-left: 10px;
     }
 
-    #toc-content ol li {
-        padding-left: 10px;
+    .frind-ship .title img {
+        width: 100px;
+        height: 100px;
+        flex-shrink: 0;
     }
 
-    #toc-content .toc-link:hover {
-        color: #42b983;
-        font-weight: 700;
-        text-decoration: underline;
+    .frind-ship .title h1 {
+        line-height: 0.8rem;
+        padding-bottom: 16px;
+        border-bottom: 2px solid #fff;
     }
 
-    #toc-content .toc-link::before {
-        background-color: transparent;
-        max-height: 25px;
+    .friend-button {
+        display: flex;
+        justify-content: center;
+        margin-bottom: -27px;
     }
 
-    #toc-content .is-active-link {
-        color: #42b983;
+    .friend-button a {
+        border-radius: 40px;
     }
 
-    #toc-content .is-active-link::before {
-        background-color: #42b983;
+    .friend-all .tag-post {
+        margin-bottom: 30px;
+    }
+
+    .button-caution {
+        background-color: #FF4351;
+        border-color: #FF4351;
+        color: #FFF;
+    }
+
+    .button {
+        font-weight: 300;
+        font-size: 16px;
+        font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        text-decoration: none;
+        text-align: center;
+        line-height: 40px;
+        height: 40px;
+        padding: 0 40px;
+        margin: 0;
+        display: inline-block;
+        appearance: none;
+        cursor: pointer;
+        border: none;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: .3s;
+        transition-duration: .3s;
+    }
+
+    .title {
+        margin-bottom: 0rem !important;
+    }
+
+    .card {
+        margin: 3rem 0 1rem 0 !important;
+    }
+
+    .button-glow.button-caution {
+        -webkit-animation-name: glowing-caution;
+        animation-name: glowing-caution;
+    }
+
+    @-webkit-keyframes glowing-caution {
+        from {
+            -webkit-box-shadow: 0 0 0 rgba(255, 67, 81, 0.3);
+            box-shadow: 0 0 0 rgba(255, 67, 81, 0.3);
+        }
+
+        50% {
+            -webkit-box-shadow: 0 0 20px rgba(255, 67, 81, 0.8);
+            box-shadow: 0 0 20px rgba(255, 67, 81, 0.8);
+        }
+
+        to {
+            -webkit-box-shadow: 0 0 0 rgba(255, 67, 81, 0.3);
+            box-shadow: 0 0 0 rgba(255, 67, 81, 0.3);
+        }
+    }
+
+    @keyframes glowing-caution {
+        from {
+            -webkit-box-shadow: 0 0 0 rgba(255, 67, 81, 0.3);
+            box-shadow: 0 0 0 rgba(255, 67, 81, 0.3);
+        }
+
+        50% {
+            -webkit-box-shadow: 0 0 20px rgba(255, 67, 81, 0.8);
+            box-shadow: 0 0 20px rgba(255, 67, 81, 0.8);
+        }
+
+        to {
+            -webkit-box-shadow: 0 0 0 rgba(255, 67, 81, 0.3);
+            box-shadow: 0 0 0 rgba(255, 67, 81, 0.3);
+        }
+    }
+
+    .button-caution:hover {
+        background-color: #ff7680;
+        border-color: #ff7680;
+        color: #FFF;
+        text-decoration: none;
+    }
+
+    .frind-card1 {
+        background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    }
+
+    .frind-card2 {
+        background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    }
+
+    .frind-card3 {
+        background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+    }
+
+    .frind-card4 {
+        background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    }
+
+    .frind-card5 {
+        background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+    }
+
+    .frind-card6 {
+        background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+    }
+
+    .frind-card7 {
+        background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+    }
+
+    .frind-card8 {
+        background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
+    }
+
+    .frind-card9 {
+        background-image: linear-gradient(to right, #ff758c 0%, #ff7eb3 100%);
+    }
+
+    .frind-card10 {
+        background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
     }
 </style>
-<div class="row">
-    <div class="col s12 m12 l9">
-        <!-- 文章内容详情 -->
-<div id="artDetail">
-    <div class="card">
-        <div class="card-content article-info">
-            <div class="row tag-cate">
-                <div class="col s7">
-                    
-                    <div class="article-tag">
-                        
-                            <a href="/tags/%E4%B8%93%E4%B8%9A%E6%95%99%E5%AD%A6%E6%A0%87%E5%87%86/" target="_blank">
-                                <span class="chip bg-color">专业教学标准</span>
-                            </a>
-                        
-                    </div>
-                    
-                </div>
-                <div class="col s5 right-align">
-                    
-                </div>
-            </div>
 
-            <div class="post-info">
-                <div class="post-date info-break-policy">
-                    <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2019-10-31
-                </div>
-
-                
-				
-				
-                    <div id="busuanzi_container_page_pv" class="info-break-policy">
-                        <i class="fa fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
-                        <span id="busuanzi_value_page_pv"></span>
-                    </div>
-				
-            </div>
-        </div>
-        <hr class="clearfix">
-        <div class="card-content article-card-content">
-            <div id="articleContent">
-                <p><a href="http://www.moe.gov.cn/s78/A07/zcs_ztzl/2017_zt06/17zt06_bznr/bznr_gzjxbz/" target="_blank" rel="noopener">高等职业学校专业教学标准</a></p>
-
-            </div>
-            <hr/>
-
+<main class="content">
+    <div class="container friends-container">
+        <article>
             
-
-            <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
-
-<div id="article-share">
-    
-    <div class="social-share" data-disabled="qzone" data-wechat-qrcode-helper="<p>微信里点“发现”->“扫一扫”二维码便可查看分享。</p>"></div>
-    
-</div>
-
-<script src="/libs/share/js/social-share.min.js"></script>
-
-            <div class="reprint">
-                <p>
-                    <span class="reprint-tip">
-                        <i class="fa fa-exclamation-circle"></i>&nbsp;&nbsp;转载请注明:
-                    </span>
-                    <a href="http://moriprof.github.com" class="b-link-green">Morio's Blog</a>
-                    <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
-                    <a href="/2019/10/31/%E4%B8%93%E4%B8%9A%E6%95%99%E5%AD%A6%E6%A0%87%E5%87%86%E4%B8%93%E9%A2%98/" class="b-link-green">专业教学标准专题</a>
-                </p>
-            </div>
-        </div>
-    </div>
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-<article id="prenext-posts" class="prev-next articles">
-    <div class="row article-row">
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge left-badge text-color">
-                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
-            <div class="card">
-                <a href="/2019/10/31/%E7%8E%B0%E4%BB%A3%E5%AD%A6%E5%BE%92%E5%88%B6%E5%B7%A5%E4%BD%9C/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="现代学徒制专题">
-                        
-                        <span class="card-title">现代学徒制专题</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary">
-教育部办公厅关于全面推进现代学徒制工作的通知（ 教职成厅函〔2019〕12号 ）
-
-</div>
-                    <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2019-10-31
-                        </span>
-                        <span class="publish-author">
-                            
-                            <i class="fa fa-user fa-fw"></i>
-                            Morio
-                            
-                        </span>
+            
+            <div class="row tags-posts friend-all">
+                
+                
+                <div class=" col s12 m6 l4" data-aos="zoom-in-up">
+                    <div class="card frind-card1">
+                        <div class="frind-ship">
+                            <div class="title">
+                                <img src="http://image.luokangyuan.com/1_qq_27922023.jpg" alt="img">
+                                <div>
+                                    <h1 class="friend-name">码酱</h1>
+                                    <p>我不是大佬，只是在追寻大佬的脚步</p>
+                                </div>
+                            </div>
+                            <div class="friend-button">
+                                <a href="http://luokangyuan.com/" target="_blank" 
+                                    class="button button-glow button-rounded button-caution">
+                                    前去学习
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/%E7%8E%B0%E4%BB%A3%E5%AD%A6%E5%BE%92%E5%88%B6/" target="_blank">
-                        <span class="chip bg-color">现代学徒制</span>
-                    </a>
-                    
-                </div>
                 
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="fa fa-dot-circle-o"></i>
-            </div>
-            <div class="card">
-                <a href="/2019/10/31/%E4%B8%93%E4%B8%9A%E6%95%99%E5%AD%A6%E6%A0%87%E5%87%86%E4%B8%93%E9%A2%98/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="专业教学标准专题">
-                        
-                        <span class="card-title">专业教学标准专题</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary">高等职业学校专业教学标准
-</div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-10-31
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fa fa-user fa-fw"></i>
-                            Morio
-                            
-                        </span>
+                <div class=" col s12 m6 l4" data-aos="zoom-in-up">
+                    <div class="card frind-card2">
+                        <div class="frind-ship">
+                            <div class="title">
+                                <img src="http://image.luokangyuan.com/4027734.jpeg" alt="img">
+                                <div>
+                                    <h1 class="friend-name">闪烁之狐</h1>
+                                    <p>编程界大佬，技术牛，人还特别好，不懂的都可以请教大佬</p>
+                                </div>
+                            </div>
+                            <div class="friend-button">
+                                <a href="https://blinkfox.github.io/" target="_blank" 
+                                    class="button button-glow button-rounded button-caution">
+                                    前去学习
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
                 
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/%E4%B8%93%E4%B8%9A%E6%95%99%E5%AD%A6%E6%A0%87%E5%87%86/" target="_blank">
-                        <span class="chip bg-color">专业教学标准</span>
-                    </a>
-                    
+                
+                <div class=" col s12 m6 l4" data-aos="zoom-in-up">
+                    <div class="card frind-card3">
+                        <div class="frind-ship">
+                            <div class="title">
+                                <img src="http://image.luokangyuan.com/avatar.jpg" alt="img">
+                                <div>
+                                    <h1 class="friend-name">ja_rome</h1>
+                                    <p>平凡的脚步也可以走出伟大的行程</p>
+                                </div>
+                            </div>
+                            <div class="friend-button">
+                                <a href="ttps://me.csdn.net/jlh912008548" target="_blank" 
+                                    class="button button-glow button-rounded button-caution">
+                                    前去学习
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 
             </div>
-        </div>
-        
+            
+        </article>
     </div>
-</article>
-</div>
-
-
-    </div>
-    <div class="col l3 hide-on-med-and-down">
-        <div class="toc-widget">
-            <div class="toc-title"><i class="fa fa-list-alt"></i>&nbsp;&nbsp;目录</div>
-            <div id="toc-content"></div>
-        </div>
-    </div>
-</div>
-
-<script src="/libs/tocbot/tocbot.min.js"></script>
-<script>
-    $(function () {
-        tocbot.init({
-            tocSelector: '#toc-content',
-            contentSelector: '#articleContent',
-            headingsOffset: -($(window).height() * 0.4 - 45),
-            // headingsOffset: -205,
-            headingSelector: 'h2, h3, h4'
-        });
-
-        // modify the toc link href to support Chinese.
-        let i = 0;
-        let tocHeading = 'toc-heading-';
-        $('#toc-content a').each(function () {
-            $(this).attr('href', '#' + tocHeading + (++i));
-        });
-
-        // modify the heading title id to support Chinese.
-        i = 0;
-        $('#articleContent').children('h2, h3, h4').each(function () {
-            $(this).attr('id', tocHeading + (++i));
-        });
-
-        // Set scroll toc fixed.
-        let tocHeight = parseInt($(window).height() * 0.4 - 64);
-        let $tocWidget = $('.toc-widget');
-        $(window).scroll(function () {
-            let scroll = $(window).scrollTop();
-            /* add post toc fixed. */
-            if (scroll > tocHeight) {
-                $tocWidget.addClass('toc-fixed');
-            } else {
-                $tocWidget.removeClass('toc-fixed');
-            }
-        });
-    });
-</script>
-    
-
 </main>
-
-
 <footer class="page-footer bg-color">
     <div class="container row center-align">
         <div class="col s12 m8 l8 copy-right">
